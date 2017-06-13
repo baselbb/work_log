@@ -128,7 +128,7 @@ class Search():
                         output.append(item)
 
         if len(output) == 0:
-            print("Oops! No matching results for entered search string {}")
+            print("Oops! No matching results for entered search string")
         else:
             for item in output:
                 pagination.append(item)
